@@ -1,0 +1,9 @@
+字母与下划线：letter->A|B|C....|a|b|c....|_
+数字：digit1->0|1|2|3|4|5|6|7|8|9 ;digit2->1|2|3|4|5|6|7|8|9
+标识符：id->letter(letter|digit)* //识别关键字时，先识别标识符，再判断是否为关键字
+整数：integer->0|-digit2digit1*|digit2digit1*
+浮点数：float->0.digit1*|-digit2digit1*.digit1*|digit2digit1*.digit1*
+字符：char->'letter|digit|...' //可以是任意字符
+字符串：string->"(letter|digit|...)*" //可以是任意字符
+运算符：operator->+|-|*|/|>|<|>=|<=|==|!=|&&||||!|&|~|<<|>>|++|--|+=|-=|*=|/=|&=|^=|%= //可以是任意字符
+分隔符：delimiter->,|;|(|)|[|]|{|} //可以是任意字符
